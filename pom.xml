@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>dat.sem3.old</groupId>
-    <artifactId>person-old</artifactId>
+    <artifactId>person</artifactId>
     <version>1</version>
     <packaging>war</packaging>
 
-    <name>rest_opg1</name>
+    <name>personOpgave</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
