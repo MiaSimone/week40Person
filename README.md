@@ -1,16 +1,13 @@
 [![Build Status](https://travis-ci.com/MiaSimone/week40Person.svg?branch=master)](https://travis-ci.com/MiaSimone/week40Person)
 
-*This project is meant as start code for projects and exercises given in Flow-1+2 at http://cphbusiness.dk in the Study Program "AP degree in Computer Science"*
+I didn't have time to make exercise 4. c) and d) and challenge 7-8 in the document https://docs.google.com/document/d/13GdGubXUbjUZJau6E_5FmoBMy1JAzYoOJbWtQ7ulj80/edit.
 
-*Projects which are expected to use this start-code are projects that require all, or most of the following technologies:*
- - *JPA and REST*
-- *Testing, including database test*
-- *Testing, including tests of REST-API's*
-- *CI and CONTINUOUS DELIVERY*
+Here is a link to my answers: https://github.com/MiaSimone/week40Exercises
+(I had to make to repositories because of some bugs så that the friday asignment couln't run)
 
-### Preconditions
-*In order to use this code, you should have a local developer setup + a "matching" droplet on Digital Ocean as described in the 3. semester guidelines* 
-# Getting Started
+Here is a link to my person page: https://miadefries.com/person
+Test if api works: https://miadefries.com/person/api/person
+All persons: https://miadefries.com/person/api/person/all
+A person: Test if api works: https://miadefries.com/person/api/person/id/{id}
 
-This document explains how to use this code (build, test and deploy), locally with maven, and remotely with maven controlled by Travis
- - [How to use](https://docs.google.com/document/d/1K6s6Tt65bzB8bCSE_NUE8alJrLRNTKCwax3GEm4OjOE/edit?usp=sharing)
+My person backend projekt and the SPA is in this repository.
