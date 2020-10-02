@@ -6,6 +6,7 @@
 package entities;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -34,7 +35,7 @@ public class Address implements Serializable {
     // Dette gør at vi fortæller hvis der ejer den entitet. Her siger vi at Person ejer address:
     @OneToMany(mappedBy = "address")
     // Bliver nødt til at lave en liste, da der kan være flere personer som har den samme addresse:
-    private List<Person> persons;
+    private List<Person> persons = new ArrayList();
 
     public Address() {
     }
@@ -43,6 +44,7 @@ public class Address implements Serializable {
         this.city = city;
         this.street = street;
         this.zip = zip;
+        //persons = new ArrayList();
     }
 
     public Long getA_id() {
@@ -76,7 +78,7 @@ public class Address implements Serializable {
     public List<Person> getPersons() {
         return persons;
     }
-
+// Setperson
     public void setPersons(Person person) {
         if (person != null){
             persons.add(person);

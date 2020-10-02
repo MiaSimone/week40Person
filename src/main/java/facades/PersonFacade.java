@@ -91,9 +91,11 @@ public class PersonFacade implements IPersonFacade{
     // OPG-5:
     @Override
     public PersonDTO addPerson(String firstName, String lastName, String phone, String street, String zip, String city) throws MissingInputException{
+        System.out.println("AAA");
         if ((firstName.length() == 0) || (lastName.length() == 0)){
            throw new MissingInputException("First Name and/or Last Name is missing"); 
         }
+        System.out.println("BBB");
         EntityManager em = getEntityManager();
         Person person = new Person(firstName, lastName, phone);
         
@@ -117,7 +119,11 @@ public class PersonFacade implements IPersonFacade{
         } finally {
             em.close();
         }
-        return new PersonDTO(person);
+        System.out.println("CCC");
+        
+        PersonDTO a = new PersonDTO(person);
+        System.out.println("pdto: a " + a);
+        return a;
     }
 
     // OPG-6:

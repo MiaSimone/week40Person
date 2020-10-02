@@ -10,10 +10,25 @@ import javax.ws.rs.container.PreMatching;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.ext.Provider;
 
+@PreMatching
+@Provider
+public class CorsFilter implements ContainerResponseFilter {
+ @Override
+ public void filter( ContainerRequestContext requestCtx, ContainerResponseContext res )
+   throws IOException {
+   res.getHeaders().add("Access-Control-Allow-Origin", "*" );
+   res.getHeaders().add("Access-Control-Allow-Credentials", "true" );
+   res.getHeaders().add("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT" );
+   res.getHeaders().add("Access-Control-Allow-Headers", "Origin, Accept, Content-Type, Authorization,x-access-token");
+ }
+}
+
+/*
 @Provider
 @PreMatching
 public class CorsFilter implements ContainerRequestFilter, ContainerResponseFilter {
 
+    
     @Override
     public void filter(ContainerRequestContext request) throws IOException {
 
@@ -54,8 +69,9 @@ public class CorsFilter implements ContainerRequestFilter, ContainerResponseFilt
         }
 
         /* Cross origin requests can be either simple requests or preflight request. We need to add this
-         header to both types of requests. Only preflight requests need the previously added headers. */
+         header to both types of requests. Only preflight requests need the previously added headers. 
         response.getHeaders().add("Access-Control-Allow-Origin", "*");
     }
 
 }
+*/

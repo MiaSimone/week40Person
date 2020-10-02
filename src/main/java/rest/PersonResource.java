@@ -67,8 +67,11 @@ public class PersonResource {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public String addPerson(String person) throws MissingInputException {
+        System.out.println("1111");
        PersonDTO p = GSON.fromJson(person, PersonDTO.class); 
+        System.out.println("2222");
        PersonDTO pAdded = FACADE.addPerson(p.getFirstName(), p.getLastName(), p.getPhone(), p.getStreet(), p.getZip(), p.getCity());
+        System.out.println("3333");
        return GSON.toJson(pAdded);
     }
     
