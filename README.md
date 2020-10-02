@@ -17,3 +17,5 @@ A person: Test if api works: https://miadefries.com/person/api/person/id/{id}.
 
 
 My person backend projekt is in this repository, and the SPA (-- Clienten --) is in theother repository.
+
+I have a surge link: http://miadefries.surge.sh/
