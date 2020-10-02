@@ -6,13 +6,13 @@ Here is a link to my answers: https://github.com/MiaSimone/week40Exercises
 (I had to make two repositories because of some bugs så that the friday asignment could run)
 
 
-Here is a link to my person page: https://miadefries.com/person.
+Here is a link to my person page: https://miadefries.com/tomcat/person/.
 
-Test if api works: https://miadefries.com/person/api/person.
+Test if api works: https://miadefries.com/tomcat/person/api/person/.
 
-All persons: https://miadefries.com/person/api/person/all.
+All persons: https://miadefries.com/tomcat/person/api/person/all.
 
-A person: Test if api works: https://miadefries.com/person/api/person/id/{id}.
+A person: Test if api works: https://miadefries.com/tomcat/person/api/person/id/{id}.
 
 
 
