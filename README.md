@@ -10,4 +10,4 @@ Test if api works: https://miadefries.com/person/api/person
 All persons: https://miadefries.com/person/api/person/all
 A person: Test if api works: https://miadefries.com/person/api/person/id/{id}
 
-My person backend projekt and the SPA is in this repository.
+My person backend projekt is in this repository, and the SPA (-- Clienten --) is in theother repository.
