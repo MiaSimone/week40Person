@@ -3,7 +3,7 @@
 I didn't have time to make exercise 4. c) and d) and challenge 7-8 in the document https://docs.google.com/document/d/13GdGubXUbjUZJau6E_5FmoBMy1JAzYoOJbWtQ7ulj80/edit.
 
 Here is a link to my answers: https://github.com/MiaSimone/week40Exercises
-(I had to make to repositories because of some bugs så that the friday asignment couln't run)
+(I had to make two repositories because of some bugs så that the friday asignment could run)
 
 
 Here is a link to my person page: https://miadefries.com/person.
