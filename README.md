@@ -18,4 +18,4 @@ A person: Test if api works: https://miadefries.com/tomcat/person/api/person/id/
 
 My person backend projekt is in this repository, and the SPA (-- Clienten --) is in theother repository.
 
-I have a surge link: https://miadefries.surge.sh/
+Link to SPA: https://miadefries.com/
