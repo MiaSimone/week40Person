@@ -5,9 +5,15 @@ I didn't have time to make exercise 4. c) and d) and challenge 7-8 in the docume
 Here is a link to my answers: https://github.com/MiaSimone/week40Exercises
 (I had to make to repositories because of some bugs så that the friday asignment couln't run)
 
+
 Here is a link to my person page: https://miadefries.com/person.
+
 Test if api works: https://miadefries.com/person/api/person.
+
 All persons: https://miadefries.com/person/api/person/all.
+
 A person: Test if api works: https://miadefries.com/person/api/person/id/{id}.
+
+
 
 My person backend projekt is in this repository, and the SPA (-- Clienten --) is in theother repository.
