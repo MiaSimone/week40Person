@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/MiaSimone/week40Person.svg?branch=master)](https://travis-ci.com/MiaSimone/week40Person)
 
-## H2 This repo contains my Person backend!
-Document for documentation of the API's: https://docs.google.com/document/d/1G5gKuupRj6iDVvDdZCMiP6S5SwKvT4YA03iLqc-IqA4/edit
+## This repo contains my Person backend!
+#### Document for documentation of the API's: https://docs.google.com/document/d/1G5gKuupRj6iDVvDdZCMiP6S5SwKvT4YA03iLqc-IqA4/edit
 
 I didn't have time to make exercise 4. c) and d) and challenge 7-8 in the document https://docs.google.com/document/d/13GdGubXUbjUZJau6E_5FmoBMy1JAzYoOJbWtQ7ulj80/edit.
 
